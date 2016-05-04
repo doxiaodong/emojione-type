@@ -1,8 +1,8 @@
 interface Emojione {
-  (toShort: string): string;
-  (shortnameToImage: string): string;
-  (unicodeToImage: string): string;
-  (toImage: string): string;
+  toShort(toShort: string): string;
+  shortnameToImage(shortnameToImage: string): string;
+  unicodeToImage(unicodeToImage: string): string;
+  toImage(toImage: string): string;
 }
 
 declare module "emojione" {
